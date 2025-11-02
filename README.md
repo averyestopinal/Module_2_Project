@@ -6,7 +6,7 @@ Hypothesis:
 H0 --> Null hypothesis, annealing does not reduce the tensile strenth of a part by 25% or more
 H1 --> Annealing decreases tensile strenth by 25% or more.
 
-
+How to recreate:
 
 Citations:
 https://www.instructables.com/An-Introduction-to-Heat-Treating-Carbon-Steels-Ann/
