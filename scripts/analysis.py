@@ -8,7 +8,7 @@ from scipy import stats
 import matplotlib.pyplot as plt, seaborn as sns
 import os
 
-df = pd.read_csv('../data/cleaned/clean_data.csv')
+df = pd.read_csv('data/cleaned/clean_data.csv')
 
 # group data by condition variable and print summary stats
 print("\n--- Descriptive statistics by condition ---")
@@ -20,7 +20,7 @@ sns.boxplot(x='condition', y='time_sec', data=df)
 sns.stripplot(x='condition', y='time_sec', data=df, color='k', alpha=0.3, jitter=True)
 plt.ylabel('Time (sec)')
 plt.title('Sudoku solve time by condition')
-plt.savefig('../results/figures/boxplot_time.png', bbox_inches='tight')
+plt.savefig('results/figures/boxplot_time.png', bbox_inches='tight')
 plt.close()
 
 
@@ -66,7 +66,7 @@ print(f"Cohen's d (paired): {cohen_d:.3f}\n")
 
 # save pair-level summary
 os.makedirs('../results', exist_ok=True)
-pivot[['participant','puzzle_id','music','silence','diff']].to_csv('../results/summary_pairs.csv', index=False)
+pivot[['participant','puzzle_id','music','silence','diff']].to_csv('results/summary_pairs.csv', index=False)
 
 # -------------------------------- END OF CITED BLOCK --------------------------------
 
@@ -85,4 +85,4 @@ d = (means['diff'].mean()) / (means['diff'].std(ddof=1) if means['diff'].std(ddo
 print("Cohen d (paired across participants):", d)
 
 # save summary stats to a separate csv file
-means.to_csv('../results/summary_stats.csv')
+means.to_csv('results/summary_stats.csv')
