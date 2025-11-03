@@ -10,6 +10,7 @@ Module_2_Project/
 │ └── cleaned/ # Cleaned data
 ├── puzzles/ # Puzzle png files
 ├── results/ # Output from analysis
+│ ├── figures/ #Output figures
 ├── scripts/ # Python scripts for cleaning and analysis
 └── README.md
 
