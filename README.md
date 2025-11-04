@@ -52,8 +52,8 @@ seaborn==0.13.2
 ## Summary of Results
 https://bylinedocs.com/document/354e3df1-1cfb-4f1c-9912-624a0334c604
 
-## Presentation 
-https://www.canva.com/design/DAG3rOHoClg/tEzS9i3AzSaXj9XPJ0RoFg/view?utm_content=DAG3rOHoClg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfe7526762c 
+## Video Presentation 
+https://www.youtube.com/watch?v=68HhzPW5-2Q 
 
 ## Collaborators
 Avery Estopinal & Eugenia Tate: both authors contributed equally to experiment design, data collection, analysis, and writing.
