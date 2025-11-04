@@ -13,7 +13,7 @@ Does background music influence how quickly a person can complete a Sudoku puzzl
 ### Hypotheses
 - **H₀ (Null):** Background music has no effect on Sudoku puzzle completion time or accuracy.  
 - **H₁ (Alternative):** Background music significantly affects Sudoku puzzle completion time or accuracy.
-- 
+  
 ## Structure
 ```
 Module_2_Project/
