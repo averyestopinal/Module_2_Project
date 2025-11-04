@@ -38,7 +38,16 @@ python scripts/analysis.py
 ```
 
 ## Dependencies
-Install dependencied by running ``` pip install -r requirements.txt ```
+Install dependencies by running ``` pip install -r requirements.txt ```
+or install manually: 
+```
+pandas==2.2.2
+numpy==1.26.2
+scipy==1.13.1
+statsmodels==0.14.2
+matplotlib==3.8.0
+seaborn==0.13.2
+```
 
 ## Summary of Results
 https://bylinedocs.com/document/354e3df1-1cfb-4f1c-9912-624a0334c604
